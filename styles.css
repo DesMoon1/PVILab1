@@ -1,0 +1,161 @@
+nav {
+  font-size: 18px;
+  height: 54px;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -8px;
+  background-color: rgb(155, 155, 155);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.cms-text {
+  text-align: center;
+  color: white;
+  padding-left: 10px;
+}
+
+
+.notification-icon {
+  margin-left: 78%;
+  margin-right: 20px;
+ position: relative;
+}
+
+
+
+.material-symbols-outlined{
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile-image {
+  margin-top: 3px;
+  margin-right: 14px;
+}
+
+.username-text {
+  margin-top: 18px;
+  font-size: 16px;
+}
+
+/**/
+
+.main-container {
+  display: flex;
+  height: 600px;
+  max-height: 600px;
+}
+
+.left-panel {
+  width: 120px;
+  margin-left: -8px;
+  background-color: aqua;
+}
+
+
+.left-panel-text {
+  font-size: 20px;
+}
+
+
+.table-name {
+  margin-left: 0px;
+  padding-top: 80px;
+  font-size: 22px;
+}
+
+.add-button {
+  font-size: 14px;
+}
+
+.table-container {
+  margin-left: 80px;
+  width: 520px;
+  height: 120px;
+}
+
+.upper-table {
+  width: 540px;
+  display: flex;
+}
+
+.table-name {
+  font-size: 28px;
+  padding-top: 60px;
+}
+
+.position-add-button {
+  padding-top: 60px;
+  padding-left: 385px; 
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  height: 50px;
+}
+
+.is-active-mark-on {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.is-active-mark-off {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(85, 85, 85);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.red-dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+  top: 100px;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 14px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1; 
+  }
+  50% {
+    opacity: 0; 
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+
+
+.navigation-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center; /*перевірити шо то */
+}
+
